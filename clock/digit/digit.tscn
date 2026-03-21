@@ -1,0 +1,145 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6mwssc3mu60w"]
+
+[ext_resource type="Script" uid="uid://c06bexowffgot" path="res://clock/digit/digit.gd" id="1_4xbwg"]
+[ext_resource type="PackedScene" uid="uid://chiddp81oxcib" path="res://clock/digit/block.tscn" id="1_j85mb"]
+
+[node name="Digit" type="Node2D"]
+script = ExtResource("1_4xbwg")
+
+[node name="A" type="Node2D" parent="."]
+
+[node name="Block" parent="A" instance=ExtResource("1_j85mb")]
+
+[node name="Block2" parent="A" instance=ExtResource("1_j85mb")]
+position = Vector2(16, 0)
+
+[node name="Block3" parent="A" instance=ExtResource("1_j85mb")]
+position = Vector2(32, 0)
+
+[node name="Block4" parent="A" instance=ExtResource("1_j85mb")]
+position = Vector2(48, 0)
+
+[node name="Block5" parent="A" instance=ExtResource("1_j85mb")]
+position = Vector2(64, 0)
+
+[node name="Block6" parent="A" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 0)
+
+[node name="B" type="Node2D" parent="."]
+
+[node name="Block" parent="B" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 0)
+
+[node name="Block2" parent="B" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 16)
+
+[node name="Block3" parent="B" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 32)
+
+[node name="Block4" parent="B" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 48)
+
+[node name="Block5" parent="B" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 64)
+
+[node name="Block6" parent="B" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 80)
+
+[node name="C" type="Node2D" parent="."]
+
+[node name="Block" parent="C" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 80)
+
+[node name="Block2" parent="C" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 96)
+
+[node name="Block3" parent="C" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 112)
+
+[node name="Block4" parent="C" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 128)
+
+[node name="Block5" parent="C" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 144)
+
+[node name="Block6" parent="C" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 160)
+
+[node name="D" type="Node2D" parent="."]
+
+[node name="Block" parent="D" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 160)
+
+[node name="Block2" parent="D" instance=ExtResource("1_j85mb")]
+position = Vector2(16, 160)
+
+[node name="Block3" parent="D" instance=ExtResource("1_j85mb")]
+position = Vector2(32, 160)
+
+[node name="Block4" parent="D" instance=ExtResource("1_j85mb")]
+position = Vector2(48, 160)
+
+[node name="Block5" parent="D" instance=ExtResource("1_j85mb")]
+position = Vector2(64, 160)
+
+[node name="Block6" parent="D" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 160)
+
+[node name="E" type="Node2D" parent="."]
+
+[node name="Block" parent="E" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 80)
+
+[node name="Block2" parent="E" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 96)
+
+[node name="Block3" parent="E" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 112)
+
+[node name="Block4" parent="E" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 128)
+
+[node name="Block5" parent="E" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 144)
+
+[node name="Block6" parent="E" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 160)
+
+[node name="F" type="Node2D" parent="."]
+
+[node name="Block" parent="F" instance=ExtResource("1_j85mb")]
+
+[node name="Block2" parent="F" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 16)
+
+[node name="Block3" parent="F" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 32)
+
+[node name="Block4" parent="F" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 48)
+
+[node name="Block5" parent="F" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 64)
+
+[node name="Block6" parent="F" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 80)
+
+[node name="G" type="Node2D" parent="."]
+
+[node name="Block" parent="G" instance=ExtResource("1_j85mb")]
+position = Vector2(0, 80)
+
+[node name="Block2" parent="G" instance=ExtResource("1_j85mb")]
+position = Vector2(16, 80)
+
+[node name="Block3" parent="G" instance=ExtResource("1_j85mb")]
+position = Vector2(32, 80)
+
+[node name="Block4" parent="G" instance=ExtResource("1_j85mb")]
+position = Vector2(48, 80)
+
+[node name="Block5" parent="G" instance=ExtResource("1_j85mb")]
+position = Vector2(64, 80)
+
+[node name="Block6" parent="G" instance=ExtResource("1_j85mb")]
+position = Vector2(80, 80)

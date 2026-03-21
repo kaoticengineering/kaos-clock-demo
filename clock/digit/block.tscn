@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://chiddp81oxcib"]
+
+[ext_resource type="Texture2D" uid="uid://d2ysia8oq8p3" path="res://assets/sprites/solid_colors_tilemap.png" id="1_uisvy"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uisvy"]
+size = Vector2(16, 16)
+
+[node name="Block" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_uisvy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_uisvy")
+region_enabled = true
+region_rect = Rect2(0, 0, 16, 16)
