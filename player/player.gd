@@ -8,7 +8,10 @@ const JUMP_VELOCITY = -275.0
 # For Character Animation State Tracking
 var animation_state = "idle"
 @onready var animated_sprite = $AnimatedSprite2D
-
+# Sound Effects
+@onready var _jump_sound = $Jump_Sound
+var _was_on_floor: bool = false
+@onready var _landing_sound = $Landing_Sound
 
 func _physics_process(delta):
 	# Add the gravity.
@@ -18,6 +21,7 @@ func _physics_process(delta):
 	# Handle jump
 	if Input.is_action_just_pressed("jump"):
 		velocity.y = JUMP_VELOCITY
+		_jump_sound.play()
 
 	# Normal Movement
 	var input_dir = Input.get_axis("move_left", "move_right")
@@ -39,6 +43,10 @@ func _physics_process(delta):
 	_play_animation_if_changed()
 	move_and_slide()
 
+	# Landing Sound Effect
+	if is_on_floor() and not _was_on_floor:
+		_landing_sound.play()
+	_was_on_floor = is_on_floor()
 
 # Decide which Animation State to be in
 func _update_animation_state() -> void:

@@ -20,18 +20,23 @@ position = Vector2(432, 0)
 
 [node name="DigitS1" parent="." instance=ExtResource("1_vx6em")]
 position = Vector2(608, 0)
+volume_db = -3.0
 
 [node name="DigitS2" parent="." instance=ExtResource("1_vx6em")]
 position = Vector2(736, 0)
+volume_db = -3.0
 
 [node name="DigitSSS1" parent="." instance=ExtResource("1_vx6em")]
 position = Vector2(912, 0)
+volume_db = -18.0
 
 [node name="DigitSSS2" parent="." instance=ExtResource("1_vx6em")]
 position = Vector2(1040, 0)
+volume_db = -18.0
 
 [node name="DigitSSS3" parent="." instance=ExtResource("1_vx6em")]
 position = Vector2(1168, 0)
+volume_db = -18.0
 
 [node name="Colon1" type="Node2D" parent="."]
 

@@ -1,7 +1,9 @@
-[gd_scene load_steps=25 format=3 uid="uid://on4en66mw4r8"]
+[gd_scene load_steps=27 format=3 uid="uid://on4en66mw4r8"]
 
 [ext_resource type="Texture2D" uid="uid://drv8pfvhqykdv" path="res://assets/sprites/lucky_loops_satyr.png" id="1_oul6g"]
 [ext_resource type="Script" uid="uid://dy6l67hk6o8ha" path="res://player/player.gd" id="1_rkbax"]
+[ext_resource type="AudioStream" uid="uid://bv6nn4ds144so" path="res://assets/sounds/jump_retro_sound.wav" id="3_g1dw6"]
+[ext_resource type="AudioStream" uid="uid://cegyfmmel2m2e" path="res://assets/sounds/landing_sound.wav" id="4_yw30f"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rkbax"]
 atlas = ExtResource("1_oul6g")
@@ -176,3 +178,10 @@ animation = &"idle"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(2, 3)
 shape = SubResource("CapsuleShape2D_oul6g")
+
+[node name="Jump_Sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_g1dw6")
+
+[node name="Landing_Sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_yw30f")
+pitch_scale = 1.1
