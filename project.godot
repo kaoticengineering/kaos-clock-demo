@@ -13,6 +13,7 @@ config_version=5
 config/name="Kaos Clock Demo"
 run/main_scene="uid://x7eoqb20l6nf"
 config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="uid://y4thjgp15igq"
 
 [autoload]
 
