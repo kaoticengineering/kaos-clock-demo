@@ -4,7 +4,7 @@ A playable real-time clock built in Godot 4. Jump around on a giant 7-segment di
 
 ---
 
-[![Demo Video](screenshot.png)](https://youtu.be/yEzgq55RuyQ)
+[![Demo Video](screenshot.png)](https://youtu.be/dCnYqT232V0)
 
 ---
 
