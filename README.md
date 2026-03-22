@@ -64,7 +64,7 @@ The player is a `CharacterBody2D` with infinite jumps, meaning you can hop freel
 
 ## Roadmap / Future Modifications
 
-- [ ] Sound effects for block state changes and player landing / jumping
+- [x] Sound effects for block state changes and player landing / jumping
 - [ ] Reset mechanic (Esc key / controller button)
 - [ ] Camera scaling for different screen sizes
 - [ ] Binary clock display
