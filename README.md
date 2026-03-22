@@ -8,6 +8,21 @@ A playable real-time clock built in Godot 4. Jump around on a giant 7-segment di
 
 ---
 
+## How to Play
+
+### Keyboard
+- A -> Move Left
+- D -> Move Right
+- W -> Jump
+- (Hold) Shift -> Sprint
+
+### Xbox 360 Controller
+- D Pad -> Left / Right Movement
+- A -> Jump
+- (Hold) X -> Sprint
+
+---
+
 ## Built With
 
 - Godot 4
@@ -39,3 +54,19 @@ The clock is a physical environment made entirely of `StaticBody2D` blocks. Each
 `digit.gd` maintains a lookup table mapping 0–9 to which segments should be active. On each `display()` call it iterates through all 7 segments, toggling both `visible` and the collision layer/mask on each block accordingly — active segments are solid and collidable, inactive segments are invisible and passthrough.
 
 The player is a `CharacterBody2D` with infinite jumps, meaning you can hop freely between any segment at any time.
+
+---
+
+## Credits
+
+- **Character Sprite** — [Lucky Loops](https://lucky-loops.itch.io/character-satyr)
+- **Background Music** — minaverus
+
+## Roadmap / Future Modifications
+
+- [ ] Sound effects for block state changes and player landing / jumping
+- [ ] Reset mechanic (Esc key / controller button)
+- [ ] Camera scaling for different screen sizes
+- [ ] Binary clock display
+- [ ] Expand into a full platformer? Would someone play this?
+- [ ] Swap out Character Sprites to something more in-theme?
