@@ -15,6 +15,10 @@ var _accum: float = 0.0
 @onready var digit_sss1 = $DigitSSS1
 @onready var digit_sss2 = $DigitSSS2
 @onready var digit_sss3 = $DigitSSS3
+@onready var binary_digit_hh = $BinaryDigitHH
+@onready var binary_digit_mm = $BinaryDigitMM
+@onready var binary_digit_ss = $BinaryDigitSS
+@onready var binary_digit_sss = $BinaryDigitSSS
 
 
 func _process(delta: float) -> void:
@@ -51,3 +55,7 @@ func _update_clock() -> void:
 	digit_sss1.display(sss1)
 	digit_sss2.display(sss2)
 	digit_sss3.display(sss3)
+	binary_digit_hh.display(time["hour"])
+	binary_digit_mm.display(time["minute"])
+	binary_digit_ss.display(time["second"])
+	binary_digit_sss.display(ms)

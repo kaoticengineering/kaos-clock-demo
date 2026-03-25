@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b6mwssc3mu60w"]
 
 [ext_resource type="Script" uid="uid://c06bexowffgot" path="res://clock/digit/digit.gd" id="1_4xbwg"]
-[ext_resource type="PackedScene" uid="uid://chiddp81oxcib" path="res://clock/digit/block.tscn" id="1_j85mb"]
+[ext_resource type="PackedScene" uid="uid://chiddp81oxcib" path="res://clock/digit/block_green.tscn" id="1_j85mb"]
 [ext_resource type="AudioStream" uid="uid://btohcaojfsha7" path="res://assets/sounds/block_sound.wav" id="3_rsmso"]
 
 [node name="Digit" type="Node2D"]

@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://dqk1bh8cchutd"]
+
+[ext_resource type="Script" uid="uid://cr5mnyfogrgwb" path="res://clock/digit/binary_digit.gd" id="1_r7mqn"]
+[ext_resource type="PackedScene" uid="uid://sk50rbtbqfl6" path="res://clock/digit/block_red.tscn" id="1_velfv"]
+
+[node name="Binary_Digit" type="Node2D"]
+script = ExtResource("1_r7mqn")
+
+[node name="Block_Red" parent="." instance=ExtResource("1_velfv")]
+position = Vector2(-103, 0)
+
+[node name="Block_Red2" parent="." instance=ExtResource("1_velfv")]
+position = Vector2(-80, 0)
+
+[node name="Block_Red3" parent="." instance=ExtResource("1_velfv")]
+position = Vector2(-57, 0)
+
+[node name="Block_Red4" parent="." instance=ExtResource("1_velfv")]
+position = Vector2(-34, 0)
+
+[node name="Block_Red5" parent="." instance=ExtResource("1_velfv")]
+position = Vector2(-11, 0)
+
+[node name="Block_Red6" parent="." instance=ExtResource("1_velfv")]
+position = Vector2(12, 0)
+
+[node name="Block_Red7" parent="." instance=ExtResource("1_velfv")]
+position = Vector2(35, 0)
+
+[node name="Block_Red8" parent="." instance=ExtResource("1_velfv")]
+position = Vector2(58, 0)
+
+[node name="Block_Red9" parent="." instance=ExtResource("1_velfv")]
+position = Vector2(81, 0)
+
+[node name="Block_Red10" parent="." instance=ExtResource("1_velfv")]
+position = Vector2(104, 0)

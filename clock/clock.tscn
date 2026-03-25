@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bbpvbpsc6qpm4"]
+[gd_scene load_steps=5 format=3 uid="uid://bbpvbpsc6qpm4"]
 
 [ext_resource type="Script" uid="uid://b1s44msywc3yl" path="res://clock/clock.gd" id="1_fk4wj"]
 [ext_resource type="PackedScene" uid="uid://b6mwssc3mu60w" path="res://clock/digit/digit.tscn" id="1_vx6em"]
-[ext_resource type="PackedScene" uid="uid://chiddp81oxcib" path="res://clock/digit/block.tscn" id="2_ru58x"]
+[ext_resource type="PackedScene" uid="uid://chiddp81oxcib" path="res://clock/digit/block_green.tscn" id="2_ru58x"]
+[ext_resource type="PackedScene" uid="uid://dqk1bh8cchutd" path="res://clock/digit/binary_digit.tscn" id="4_xrin6"]
 
 [node name="Clock" type="Node2D"]
 script = ExtResource("1_fk4wj")
@@ -58,3 +59,15 @@ position = Vector2(560, 118)
 
 [node name="Block" parent="DeciPoint" instance=ExtResource("2_ru58x")]
 position = Vector2(864, 158)
+
+[node name="BinaryDigitHH" parent="." instance=ExtResource("4_xrin6")]
+position = Vector2(104, 263)
+
+[node name="BinaryDigitMM" parent="." instance=ExtResource("4_xrin6")]
+position = Vector2(408, 263)
+
+[node name="BinaryDigitSS" parent="." instance=ExtResource("4_xrin6")]
+position = Vector2(712, 263)
+
+[node name="BinaryDigitSSS" parent="." instance=ExtResource("4_xrin6")]
+position = Vector2(1080, 263)
