@@ -3,6 +3,7 @@
 A playable real-time clock built in Godot 4. Jump around on a giant 7-segment display showing the current time down to the millisecond.
 
 ---
+## Video (Click preview image below!)
 
 [![Demo Video](https://img.youtube.com/vi/34eMLo5-dD8/maxresdefault.jpg)](https://youtu.be/34eMLo5-dD8)
 
@@ -11,6 +12,9 @@ A playable real-time clock built in Godot 4. Jump around on a giant 7-segment di
 ## Screenshots
 
 ![Screenshot 0](screenshots/sc00.png)
+
+---
+
 ![Screenshot 1](screenshots/sc01.png)
 
 ---
