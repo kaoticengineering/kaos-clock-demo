@@ -71,7 +71,7 @@ The player is a `CharacterBody2D` with infinite jumps, meaning you can hop freel
 ## Credits
 
 - **Character Sprite** — [Lucky Loops](https://lucky-loops.itch.io/character-satyr)
-- **Background Music** — minaverus
+- **Background Music** — [Minaverus](https://www.youtube.com/channel/UCPAPwTW44Cl3e28gucMZ7RQ)
 
 ## Roadmap / Future Modifications
 
