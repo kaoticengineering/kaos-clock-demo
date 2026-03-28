@@ -1,7 +1,7 @@
 extends Node2D
 
 # .1 = 10 Hz, 1 = every 1 second
-const UPDATE_INTERVAL: float = 0.1
+#const UPDATE_INTERVAL: float = 0.017
 
 # Used to implement the update interval
 var _accum: float = 0.0
@@ -22,10 +22,11 @@ var _accum: float = 0.0
 
 
 func _process(delta: float) -> void:
-	_accum += delta
-	if _accum >= UPDATE_INTERVAL:
-		_accum = 0.0
-		_update_clock()
+	_update_clock()
+	#_accum += delta
+	#if _accum >= UPDATE_INTERVAL:
+	#	_accum = 0.0
+	#	_update_clock()
 
 
 func _update_clock() -> void:
